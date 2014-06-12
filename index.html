@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Simple Calculator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <!-- This is where our calculator is created, we can use this id for future CSS -->
         <div id="calculator">
                 
+            <!-- screen where our calculator displays digits -->
+            
             <input id="screen" type="text" name="fname" size="10">
             
+            <!-- the buttons, this id can also be used for future CSS -->
+            
             <div id="buttons">
+                
+                <!-- each button calls a method which takes it to its respective javascript calculation -->
                 
                 <button id="1" onClick="press(1)" type="button">1</button>
                 <button id="2" onClick="press(2)" type="button">2</button>
